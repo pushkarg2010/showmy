@@ -1,0 +1,6 @@
+create database emysql;
+
+create table emysql.ref_pin_code (pin_id int primary key auto_increment, pin_code int, area varchar(20), delivery_timeline int);
+
+insert into emysql.ref_pin_code (pin_code, area, delivery_timeline) values ( 411035, 'Akurdi', 4);
+insert into emysql.ref_pin_code (pin_code, area, delivery_timeline) values ( 411028, 'Hadapsar', 4);
